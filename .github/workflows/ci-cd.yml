@@ -1,0 +1,81 @@
+name: MyRoute CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test-and-build:
+    name: 🧪 Automated Testing & Production Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: |
+            server/package.json
+            client/package.json
+
+      # 1. Install & Test Backend Server
+      - name: 📦 Install Server Dependencies
+        working-directory: ./server
+        run: npm ci
+
+      - name: 🚀 Start Test Server in Background
+        working-directory: ./server
+        run: |
+          node server.js &
+          sleep 3
+
+      - name: 🧪 Execute API & Auth Integration Tests
+        working-directory: ./server
+        run: node test_simple_auth.js
+
+      # 2. Install & Build Client Frontend
+      - name: 📦 Install Client Dependencies
+        working-directory: ./client
+        run: npm ci
+
+      - name: 🏗️ Compile Production Client Bundle
+        working-directory: ./client
+        run: npm run build
+
+      # 3. Verify Static Serving
+      - name: ✅ Validate Fullstack Bundle Structure
+        run: |
+          test -d client/dist && echo "Client dist verified."
+          test -f client/dist/index.html && echo "Client index.html verified."
+
+  deploy:
+    name: 🚀 Automatic Public Cloud Deployment
+    needs: test-and-build
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      # Deploy to Render Cloud Web Service (if RENDER_DEPLOY_HOOK_URL secret is provided)
+      - name: 🌐 Trigger Render Deployment
+        if: env.RENDER_DEPLOY_HOOK != ''
+        env:
+          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          echo "Triggering live production deployment on Render..."
+          curl -X POST "$RENDER_DEPLOY_HOOK"
+          echo "Deployment webhook triggered successfully."
+
+      # Output Deployment Summary
+      - name: 📋 CI/CD Status Report
+        run: |
+          echo "🎉 CI/CD Pipeline passed all checks!"
+          echo "Code has been tested, built, and prepared for live public traffic."

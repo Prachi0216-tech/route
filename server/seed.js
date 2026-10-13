@@ -1,0 +1,3418 @@
+// Seed data source file
+module.exports = {
+  "cities": [
+    {
+      "id": "uttar_pradesh",
+      "name": "Uttar Pradesh (UP Transit)",
+      "state": "Uttar Pradesh",
+      "region": "North",
+      "center": [
+        26.8467,
+        80.9462
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi NCR",
+      "state": "Delhi",
+      "region": "North",
+      "center": [
+        28.6139,
+        77.209
+      ],
+      "zoom": 12
+    },
+    {
+      "id": "punjab",
+      "name": "Punjab (Punbus / PRTC)",
+      "state": "Punjab",
+      "region": "North",
+      "center": [
+        31.634,
+        74.8723
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "haryana",
+      "name": "Haryana Roadways",
+      "state": "Haryana",
+      "region": "North",
+      "center": [
+        28.4595,
+        77.0266
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "chandigarh",
+      "name": "Chandigarh (CTU)",
+      "state": "Chandigarh UT",
+      "region": "North",
+      "center": [
+        30.7333,
+        76.7794
+      ],
+      "zoom": 12
+    },
+    {
+      "id": "himachal_pradesh",
+      "name": "Himachal Pradesh (HRTC)",
+      "state": "Himachal Pradesh",
+      "region": "North",
+      "center": [
+        31.1048,
+        77.1734
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "uttarakhand",
+      "name": "Uttarakhand (UTC)",
+      "state": "Uttarakhand",
+      "region": "North",
+      "center": [
+        30.3165,
+        78.0322
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "jammu_kashmir",
+      "name": "Jammu & Kashmir (JKSRTC)",
+      "state": "Jammu & Kashmir",
+      "region": "North",
+      "center": [
+        34.0837,
+        74.7973
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "ladakh",
+      "name": "Ladakh (Leh Transit)",
+      "state": "Ladakh UT",
+      "region": "North",
+      "center": [
+        34.1526,
+        77.5771
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "rajasthan",
+      "name": "Rajasthan (RSRTC)",
+      "state": "Rajasthan",
+      "region": "West",
+      "center": [
+        26.9124,
+        75.7873
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "gujarat",
+      "name": "Gujarat (GSRTC)",
+      "state": "Gujarat",
+      "region": "West",
+      "center": [
+        23.0225,
+        72.5714
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "maharashtra",
+      "name": "Maharashtra (MSRTC/BEST)",
+      "state": "Maharashtra",
+      "region": "West",
+      "center": [
+        19.076,
+        72.8777
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "goa",
+      "name": "Goa (Kadamba KTCL)",
+      "state": "Goa",
+      "region": "West",
+      "center": [
+        15.4909,
+        73.8278
+      ],
+      "zoom": 12
+    },
+    {
+      "id": "madhya_pradesh",
+      "name": "Madhya Pradesh (MP Transit)",
+      "state": "Madhya Pradesh",
+      "region": "Central",
+      "center": [
+        22.7196,
+        75.8577
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "chhattisgarh",
+      "name": "Chhattisgarh (CG Transit)",
+      "state": "Chhattisgarh",
+      "region": "Central",
+      "center": [
+        21.2514,
+        81.6296
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "bihar",
+      "name": "Bihar (BSRTC)",
+      "state": "Bihar",
+      "region": "East",
+      "center": [
+        25.5941,
+        85.1376
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "jharkhand",
+      "name": "Jharkhand (Ranchi Transit)",
+      "state": "Jharkhand",
+      "region": "East",
+      "center": [
+        23.3441,
+        85.3096
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "west_bengal",
+      "name": "West Bengal (WBTC)",
+      "state": "West Bengal",
+      "region": "East",
+      "center": [
+        22.5726,
+        88.3639
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "odisha",
+      "name": "Odisha (OSRTC / Mo Bus)",
+      "state": "Odisha",
+      "region": "East",
+      "center": [
+        20.2961,
+        85.8245
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "karnataka",
+      "name": "Karnataka (KSRTC / BMTC)",
+      "state": "Karnataka",
+      "region": "South",
+      "center": [
+        12.9716,
+        77.5946
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "tamil_nadu",
+      "name": "Tamil Nadu (TNSTC / MTC)",
+      "state": "Tamil Nadu",
+      "region": "South",
+      "center": [
+        13.0827,
+        80.2707
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "telangana",
+      "name": "Telangana (TSRTC)",
+      "state": "Telangana",
+      "region": "South",
+      "center": [
+        17.385,
+        78.4867
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "andhra_pradesh",
+      "name": "Andhra Pradesh (APSRTC)",
+      "state": "Andhra Pradesh",
+      "region": "South",
+      "center": [
+        16.5062,
+        80.648
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "kerala",
+      "name": "Kerala (KSRTC)",
+      "state": "Kerala",
+      "region": "South",
+      "center": [
+        9.9312,
+        76.2673
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "puducherry",
+      "name": "Puducherry (PRTC)",
+      "state": "Puducherry UT",
+      "region": "South",
+      "center": [
+        11.9416,
+        79.8083
+      ],
+      "zoom": 12
+    },
+    {
+      "id": "assam",
+      "name": "Assam (ASTC)",
+      "state": "Assam",
+      "region": "North-East",
+      "center": [
+        26.1445,
+        91.7362
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "meghalaya",
+      "name": "Meghalaya (MTC)",
+      "state": "Meghalaya",
+      "region": "North-East",
+      "center": [
+        25.5788,
+        91.8933
+      ],
+      "zoom": 12
+    },
+    {
+      "id": "sikkim",
+      "name": "Sikkim (SNT)",
+      "state": "Sikkim",
+      "region": "North-East",
+      "center": [
+        27.3389,
+        88.6065
+      ],
+      "zoom": 12
+    },
+    {
+      "id": "arunachal_pradesh",
+      "name": "Arunachal Pradesh (APSTS)",
+      "state": "Arunachal Pradesh",
+      "region": "North-East",
+      "center": [
+        27.0844,
+        93.6053
+      ],
+      "zoom": 11
+    },
+    {
+      "id": "nagaland",
+      "name": "Nagaland (NST)",
+      "state": "Nagaland",
+      "region": "North-East",
+      "center": [
+        25.6751,
+        94.1086
+      ],
+      "zoom": 12
+    },
+    {
+      "id": "manipur",
+      "name": "Manipur (MSRTC)",
+      "state": "Manipur",
+      "region": "North-East",
+      "center": [
+        24.817,
+        93.9368
+      ],
+      "zoom": 12
+    },
+    {
+      "id": "mizoram",
+      "name": "Mizoram (MST)",
+      "state": "Mizoram",
+      "region": "North-East",
+      "center": [
+        23.7271,
+        92.7176
+      ],
+      "zoom": 12
+    },
+    {
+      "id": "tripura",
+      "name": "Tripura (TRTC)",
+      "state": "Tripura",
+      "region": "North-East",
+      "center": [
+        23.8315,
+        91.2868
+      ],
+      "zoom": 12
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_c8a4fd2b",
+      "name": "Gaurav Singh",
+      "email": "gauravsingh2442005@gmail.com",
+      "password": "$2a$10$ZiZOT6T7IBmtlv8Ssw59n.KrLyFoKQomdN90VZVfJDVU8AN9rrkTi",
+      "phone": "+919667167076",
+      "city": "delhi",
+      "role": "COMMUTER",
+      "rewardPoints": 50,
+      "badges": [
+        "New Commuter",
+        "Email Verified"
+      ],
+      "savedRoutes": [],
+      "emergencyContacts": [],
+      "isEmailVerified": true,
+      "createdAt": "2026-09-17T17:19:18.262Z"
+    },
+    {
+      "id": "usr_8bae6efe",
+      "name": "Google Commuter",
+      "email": "commuter.google@gmail.com",
+      "password": "$2a$10$Kim//6Tie5BAg6qoqWkoXer3vfbgMkPKDWmJxFJXVhB1s/kxekszm",
+      "phone": "+919667167076",
+      "city": "delhi",
+      "role": "COMMUTER",
+      "rewardPoints": 50,
+      "badges": [
+        "New Commuter",
+        "Email Verified"
+      ],
+      "savedRoutes": [],
+      "emergencyContacts": [],
+      "isEmailVerified": true,
+      "createdAt": "2026-09-17T17:31:48.111Z"
+    },
+    {
+      "id": "usr_eba38042",
+      "name": "Google Driver",
+      "email": "driver.google@gmail.com",
+      "password": "$2a$10$f0gVsfZYRWL3V9kOYa1ZCOHBvpZ5nUQTWkXGc1u4oEgtH2Zbw4ncW",
+      "phone": "+919667167076",
+      "city": "delhi",
+      "role": "COMMUTER",
+      "rewardPoints": 50,
+      "badges": [
+        "New Commuter",
+        "Email Verified"
+      ],
+      "savedRoutes": [],
+      "emergencyContacts": [],
+      "isEmailVerified": true,
+      "createdAt": "2026-09-17T18:50:31.829Z"
+    },
+    {
+      "id": "usr_b08b9085",
+      "name": "Aarav Sharma",
+      "email": "test_commuter_1789714961126@example.com",
+      "password": "$2a$10$F1o2H2IDknaW9ATMP2wWTemM/xLWe4Bu2hDAcC69tbjjRgW/gZCJy",
+      "phone": "9876590991",
+      "city": "uttar_pradesh",
+      "role": "COMMUTER",
+      "rewardPoints": 100,
+      "badges": [
+        "Verified Commuter",
+        "Dual OTP Verified"
+      ],
+      "savedRoutes": [],
+      "emergencyContacts": [
+        {
+          "name": "Rajesh Sharma",
+          "phone": "9811122334"
+        }
+      ],
+      "preferredTransportMode": "BUS",
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-09-18T07:02:41.238Z"
+    },
+    {
+      "id": "usr_20dda010",
+      "name": "Gaurav Singh",
+      "email": "gauravsingh99940@gamil.com",
+      "password": "$2a$10$pqTDeoe6sXc3sKxVa04axelBLYUV3fEvdRQLTHgoVfYb1C1lDiCEu",
+      "phone": "0123456789",
+      "city": "delhi",
+      "role": "COMMUTER",
+      "rewardPoints": 100,
+      "badges": [
+        "Verified Commuter",
+        "Dual OTP Verified"
+      ],
+      "savedRoutes": [],
+      "emergencyContacts": [
+        {
+          "name": "0123456789",
+          "phone": "0123456789"
+        }
+      ],
+      "preferredTransportMode": "BUS",
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-09-18T07:18:48.646Z"
+    },
+    {
+      "id": "usr_dfe2da1f",
+      "name": "HARSH",
+      "email": "jhjhgh2555@gamil.com",
+      "password": "$2a$10$JXLsu8HxO8rsVPfH7pNp6.ygtbphYUsLLnRb7Qycok.ph0BXnpQ86",
+      "phone": "2334567895",
+      "city": "delhi",
+      "role": "COMMUTER",
+      "rewardPoints": 100,
+      "badges": [
+        "Verified Commuter",
+        "Dual OTP Verified"
+      ],
+      "savedRoutes": [],
+      "emergencyContacts": [
+        {
+          "name": "0123456789",
+          "phone": "0123456789"
+        }
+      ],
+      "preferredTransportMode": "BUS",
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-09-18T07:31:54.008Z"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "drv_061b7f78",
+      "name": "Suresh Kumar Driver",
+      "email": "suresh.bus@gmail.com",
+      "password": "$2a$10$XiqwMH6hEoNT.67fDj2K2e7BBWCA7zHjJ3GUYenNlSnnlGF1I4B2G",
+      "phone": "+919876543210",
+      "city": "delhi",
+      "role": "DRIVER",
+      "vehicleType": "BUS",
+      "routeNumber": "252",
+      "vehicleNumber": "DL-01-BK-9988",
+      "licenseNumber": "IND-DL82987294",
+      "vehicleModel": "Tata City Bus AC",
+      "totalSeats": 45,
+      "availableSeats": 31,
+      "rating": 5,
+      "totalTrips": 0,
+      "isOnline": true,
+      "hasLocationPermission": true,
+      "currentStatus": "EN_ROUTE",
+      "currentLocation": {
+        "lat": 28.6675,
+        "lng": 77.2285
+      },
+      "heading": 90,
+      "speedKmh": 32,
+      "nextStop": "Kashmere Gate ISBT",
+      "crowdDensity": "AVAILABLE",
+      "isEmailVerified": true,
+      "createdAt": "2026-09-17T17:56:44.150Z"
+    },
+    {
+      "id": "drv_6af95b04",
+      "name": "Ram Prakash Yadav",
+      "email": "driver_up_1789714961243@upsrtc.gov.in",
+      "password": "$2a$10$szvIZDuxJFaKn8KaKjpxWOC.3TGs5BqtBbSwPCwgJS2L55Egq6qei",
+      "phone": "9988724809",
+      "city": "uttar_pradesh",
+      "role": "DRIVER",
+      "licenseNumber": "UP32-2018-0098765",
+      "aadhaarNumber": "•••• •••• 9821",
+      "experienceYears": 6,
+      "vehicleType": "BUS",
+      "fleetOperator": "UPSRTC",
+      "vehicleNumber": "UP 32 CZ 8901",
+      "busNumber": "UP-LKO-02-EXP",
+      "routeNumber": "UPSRTC-102",
+      "routeOrigin": "Origin Terminal",
+      "routeDestination": "Destination Terminal",
+      "vehicleModel": "Ashok Leyland Janrath AC Coach",
+      "totalSeats": 48,
+      "availableSeats": 48,
+      "hasAC": true,
+      "isElectric": false,
+      "isOnline": false,
+      "hasLocationPermission": true,
+      "currentStatus": "OFFLINE",
+      "currentLocation": {
+        "lat": 26.8322,
+        "lng": 80.9202
+      },
+      "heading": 90,
+      "speedKmh": 35,
+      "nextStop": "Lucknow Charbagh Railway & Bus Station",
+      "crowdDensity": "AVAILABLE",
+      "rating": 5,
+      "totalTrips": 0,
+      "shiftEarnings": 0,
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-09-18T07:02:41.310Z",
+      "updatedAt": "2026-09-18T07:02:41.318Z"
+    },
+    {
+      "id": "drv_4897174e",
+      "name": "Santosh Kumar",
+      "email": "auto_driver_1789715752998@myroute.in",
+      "password": "$2a$10$RdWkLSPIXwh2A7raoFondeR6vEu05Ee3luGxpzEKpb6TQcBbP.XmG",
+      "phone": "9812324638",
+      "city": "uttar_pradesh",
+      "role": "DRIVER",
+      "licenseNumber": "UP32-2020-0012345",
+      "aadhaarNumber": "•••• •••• 1921",
+      "experienceYears": 4,
+      "vehicleType": "AUTO",
+      "fleetOperator": "UPSRTC",
+      "vehicleNumber": "UP 32 T 9876",
+      "busNumber": "AUTO-302",
+      "routeNumber": "UP-101",
+      "routeOrigin": "Origin Terminal",
+      "routeDestination": "Destination Terminal",
+      "vehicleModel": "Bajaj RE Compact 4S CNG Auto",
+      "totalSeats": 3,
+      "availableSeats": 2,
+      "hasAC": true,
+      "isElectric": false,
+      "isOnline": true,
+      "hasLocationPermission": true,
+      "currentStatus": "EN_ROUTE",
+      "currentLocation": {
+        "lat": 26.8322,
+        "lng": 80.9202
+      },
+      "heading": 90,
+      "speedKmh": 35,
+      "nextStop": "Lucknow Charbagh Railway & Bus Station",
+      "crowdDensity": "AVAILABLE",
+      "rating": 5,
+      "totalTrips": 0,
+      "shiftEarnings": 0,
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-09-18T07:15:53.083Z"
+    },
+    {
+      "id": "drv_df6910c2",
+      "name": "Mohd Aslam",
+      "email": "erick_driver_1789715753086@myroute.in",
+      "password": "$2a$10$kNQ6eZLlj8HtnZUJx84hoe4Xuq9A0LipPqJZg03UHhR9KrC2vMzce",
+      "phone": "9834544448",
+      "city": "uttar_pradesh",
+      "role": "DRIVER",
+      "licenseNumber": "UP32-2021-0077889",
+      "aadhaarNumber": "•••• •••• 4850",
+      "experienceYears": 4,
+      "vehicleType": "E_RICKSHAW",
+      "fleetOperator": "UPSRTC",
+      "vehicleNumber": "UP 32 ER 4421",
+      "busNumber": "TOTO-105",
+      "routeNumber": "UP-101",
+      "routeOrigin": "Origin Terminal",
+      "routeDestination": "Destination Terminal",
+      "vehicleModel": "Mahindra Treo Electric E-Rickshaw",
+      "totalSeats": 4,
+      "availableSeats": 3,
+      "hasAC": true,
+      "isElectric": true,
+      "isOnline": true,
+      "hasLocationPermission": true,
+      "currentStatus": "EN_ROUTE",
+      "currentLocation": {
+        "lat": 26.8322,
+        "lng": 80.9202
+      },
+      "heading": 90,
+      "speedKmh": 35,
+      "nextStop": "Lucknow Charbagh Railway & Bus Station",
+      "crowdDensity": "AVAILABLE",
+      "rating": 5,
+      "totalTrips": 0,
+      "shiftEarnings": 0,
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-09-18T07:15:53.150Z"
+    },
+    {
+      "id": "drv_263a63b8",
+      "name": "harsh",
+      "email": "commuter.india@gmail.com",
+      "password": "$2a$10$nIX.Eq5uxmTpZ9aAFLIDZ.j3PLbvvyczHjiB7NyaTkwgTwxpNztqS",
+      "phone": "0123456789",
+      "city": "uttar_pradesh",
+      "role": "DRIVER",
+      "licenseNumber": "UP 14 2564879",
+      "aadhaarNumber": "456789541234",
+      "experienceYears": 3,
+      "vehicleType": "SHUTTLE",
+      "fleetOperator": "PRIVATE",
+      "vehicleNumber": "UP 32 AZ 4589",
+      "busNumber": "UP-LKO-01",
+      "routeNumber": "UP-101",
+      "routeOrigin": "Lucknow Charbagh",
+      "routeDestination": "Gorakhpur ISBT",
+      "vehicleModel": "Ashok Leyland Janrath AC Coach",
+      "totalSeats": 45,
+      "availableSeats": 45,
+      "hasAC": true,
+      "isElectric": false,
+      "isOnline": true,
+      "hasLocationPermission": true,
+      "currentStatus": "EN_ROUTE",
+      "currentLocation": {
+        "lat": 26.8322,
+        "lng": 80.9202
+      },
+      "heading": 90,
+      "speedKmh": 35,
+      "nextStop": "Lucknow Charbagh Railway & Bus Station",
+      "crowdDensity": "AVAILABLE",
+      "rating": 5,
+      "totalTrips": 0,
+      "shiftEarnings": 0,
+      "isEmailVerified": true,
+      "isPhoneVerified": true,
+      "createdAt": "2026-09-18T07:22:38.782Z",
+      "updatedAt": "2026-09-18T07:25:07.018Z"
+    }
+  ],
+  "routes": [
+    {
+      "id": "up_janrath_101",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "routeNumber": "UP-101",
+      "operator": "UPSRTC Janrath AC",
+      "category": "INTERCITY",
+      "name": "UPSRTC Janrath: Lucknow to Agra & NCR Expressway",
+      "origin": "Lucknow Charbagh Railway & Bus Station",
+      "destination": "Noida Sector 62 Electronic City",
+      "type": "BUS",
+      "frequencyMinutes": 30,
+      "baseFare": 380,
+      "perKmFare": 1.6,
+      "color": "#0284c7",
+      "description": "Air-conditioned Janrath express corridor via Agra-Lucknow Expressway linking Lucknow Charbagh, Kanpur Jhakarkati, Agra ISBT, and Noida Sector 62.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:30 PM",
+      "stops": [
+        "up_lko_charbagh",
+        "up_knp_jhakarkati",
+        "up_agr_isbt",
+        "up_noi_sec62"
+      ],
+      "waypoints": [
+        [
+          26.8322,
+          80.9202
+        ],
+        [
+          26.4503,
+          80.344
+        ],
+        [
+          27.209,
+          77.962
+        ],
+        [
+          28.6258,
+          77.3688
+        ]
+      ]
+    },
+    {
+      "id": "up_rajdhani_102",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "routeNumber": "UP-102",
+      "operator": "UPSRTC Rajdhani",
+      "category": "EXPRESS",
+      "name": "UPSRTC Rajdhani: Lucknow to Ayodhya Dham & Gorakhpur",
+      "origin": "Lucknow Charbagh Railway & Bus Station",
+      "destination": "Gorakhpur Railway Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 20,
+      "baseFare": 210,
+      "perKmFare": 1.4,
+      "color": "#f97316",
+      "description": "Superfast expressway link connecting Lucknow Charbagh and Kamta through Ayodhya Dham Ram Mandir Gate directly to Gorakhpur Terminal.",
+      "firstBus": "04:30 AM",
+      "lastBus": "11:45 PM",
+      "stops": [
+        "up_lko_charbagh",
+        "up_lko_kamta",
+        "up_ayd_dham",
+        "up_gkp_terminal"
+      ],
+      "waypoints": [
+        [
+          26.8322,
+          80.9202
+        ],
+        [
+          26.877,
+          81.034
+        ],
+        [
+          26.799,
+          82.203
+        ],
+        [
+          26.757,
+          83.382
+        ]
+      ]
+    },
+    {
+      "id": "up_janrath_103",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "routeNumber": "UP-103",
+      "operator": "UPSRTC Janrath AC",
+      "category": "INTERCITY",
+      "name": "UPSRTC Janrath: Varanasi Cantt to Prayagraj & Lucknow",
+      "origin": "Varanasi Cantt UPSRTC Bus Terminal",
+      "destination": "Lucknow Charbagh Railway & Bus Station",
+      "type": "BUS",
+      "frequencyMinutes": 25,
+      "baseFare": 290,
+      "perKmFare": 1.5,
+      "color": "#8b5cf6",
+      "description": "High-frequency Janrath AC luxury bus connecting Varanasi Cantt, Prayagraj Civil Lines, and Lucknow Alambagh / Charbagh.",
+      "firstBus": "05:15 AM",
+      "lastBus": "10:45 PM",
+      "stops": [
+        "up_vns_cantt",
+        "up_pry_civil_lines",
+        "up_lko_alambagh",
+        "up_lko_charbagh"
+      ],
+      "waypoints": [
+        [
+          25.3284,
+          82.9868
+        ],
+        [
+          25.453,
+          81.834
+        ],
+        [
+          26.8124,
+          80.9023
+        ],
+        [
+          26.8322,
+          80.9202
+        ]
+      ]
+    },
+    {
+      "id": "up_braj_105",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "routeNumber": "UP-105",
+      "operator": "UPSRTC Braj Express",
+      "category": "EXPRESS",
+      "name": "UPSRTC Braj Express: Agra to Mathura & Noida Sec 62",
+      "origin": "Agra ISBT Transport Nagar",
+      "destination": "Noida Sector 62 Electronic City",
+      "type": "BUS",
+      "frequencyMinutes": 15,
+      "baseFare": 140,
+      "perKmFare": 1.3,
+      "color": "#10b981",
+      "description": "Arterial Yamuna Expressway corridor linking Agra ISBT, Mathura New Bus Stand, Vrindavan Prem Mandir, and Noida IT Hub Sector 62.",
+      "firstBus": "05:30 AM",
+      "lastBus": "11:00 PM",
+      "stops": [
+        "up_agr_isbt",
+        "up_mth_isbt",
+        "up_mth_vrindavan",
+        "up_noi_sec62"
+      ],
+      "waypoints": [
+        [
+          27.209,
+          77.962
+        ],
+        [
+          27.4924,
+          77.6737
+        ],
+        [
+          27.5706,
+          77.6963
+        ],
+        [
+          28.6258,
+          77.3688
+        ]
+      ]
+    },
+    {
+      "id": "up_lko_ev11",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "routeNumber": "UP-LKO-11",
+      "operator": "Lucknow City EV Bus",
+      "category": "CITY_BUS",
+      "name": "Lucknow EV-11: Charbagh to Hazratganj, Gomti Nagar & Munshi Pulia",
+      "origin": "Lucknow Charbagh Railway & Bus Station",
+      "destination": "Munshi Pulia Metro Terminal",
+      "type": "BUS",
+      "frequencyMinutes": 8,
+      "baseFare": 10,
+      "perKmFare": 1.2,
+      "color": "#10b981",
+      "description": "Zero-emission electric local city bus connecting Charbagh Railway Station, Hazratganj, Patrakar Puram, Polytechnic, and Munshi Pulia.",
+      "firstBus": "06:00 AM",
+      "lastBus": "10:30 PM",
+      "stops": [
+        "up_lko_charbagh",
+        "up_lko_hazratganj",
+        "up_lko_gomti_nagar",
+        "up_lko_polytechnic",
+        "up_lko_munshi_pulia"
+      ],
+      "waypoints": [
+        [
+          26.8322,
+          80.9202
+        ],
+        [
+          26.853,
+          80.946
+        ],
+        [
+          26.857,
+          80.998
+        ],
+        [
+          26.872,
+          80.995
+        ],
+        [
+          26.8872,
+          80.989
+        ]
+      ]
+    },
+    {
+      "id": "delhi_252",
+      "city": "delhi",
+      "state": "Delhi",
+      "routeNumber": "252",
+      "operator": "DTC City Bus",
+      "category": "CITY_BUS",
+      "name": "DTC 252: Kashmere Gate to Saket Terminal",
+      "origin": "Kashmere Gate ISBT",
+      "destination": "Saket District Centre / Mall",
+      "type": "BUS",
+      "frequencyMinutes": 8,
+      "baseFare": 10,
+      "perKmFare": 1.5,
+      "color": "#0284c7",
+      "description": "Major arterial corridor connecting North Delhi through Connaught Place & AIIMS to South Delhi Saket.",
+      "firstBus": "05:30 AM",
+      "lastBus": "11:15 PM",
+      "stops": [
+        "delhi_kg",
+        "delhi_chandni",
+        "delhi_ito",
+        "delhi_india_gate",
+        "delhi_aiims",
+        "delhi_saket"
+      ],
+      "waypoints": [
+        [
+          28.6675,
+          77.2285
+        ],
+        [
+          28.6506,
+          77.2303
+        ],
+        [
+          28.6292,
+          77.242
+        ],
+        [
+          28.6129,
+          77.2295
+        ],
+        [
+          28.5672,
+          77.21
+        ],
+        [
+          28.5283,
+          77.2195
+        ]
+      ]
+    },
+    {
+      "id": "delhi_212",
+      "city": "delhi",
+      "state": "Delhi",
+      "routeNumber": "212",
+      "operator": "DTC City Bus",
+      "category": "CITY_BUS",
+      "name": "DTC 212: Anand Vihar to Karol Bagh",
+      "origin": "Anand Vihar ISBT & Terminal",
+      "destination": "Karol Bagh Market",
+      "type": "BUS",
+      "frequencyMinutes": 10,
+      "baseFare": 10,
+      "perKmFare": 1.5,
+      "color": "#10b981",
+      "description": "East to West transit corridor via Vikas Marg, Pragati Maidan, Connaught Place and Karol Bagh.",
+      "firstBus": "05:45 AM",
+      "lastBus": "10:45 PM",
+      "stops": [
+        "delhi_anand_vihar",
+        "delhi_ito",
+        "delhi_mandi",
+        "delhi_cp",
+        "delhi_karol_bagh"
+      ],
+      "waypoints": [
+        [
+          28.6469,
+          77.316
+        ],
+        [
+          28.6292,
+          77.242
+        ],
+        [
+          28.6258,
+          77.2343
+        ],
+        [
+          28.6315,
+          77.2167
+        ],
+        [
+          28.6517,
+          77.1906
+        ]
+      ]
+    },
+    {
+      "id": "pb_punbus_01",
+      "city": "punjab",
+      "state": "Punjab",
+      "routeNumber": "PB-PUN-01",
+      "operator": "Punbus Punjab Roadways",
+      "category": "EXPRESS",
+      "name": "Punbus Express: Amritsar to Jalandhar & Ludhiana",
+      "origin": "Amritsar Golden Temple ISBT",
+      "destination": "Ludhiana Amar Shaheed Sukhdev ISBT",
+      "type": "BUS",
+      "frequencyMinutes": 15,
+      "baseFare": 120,
+      "perKmFare": 1.4,
+      "color": "#f59e0b",
+      "description": "Arterial GT Road highway service connecting Amritsar Golden Temple ISBT via Jalandhar to Ludhiana.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:00 PM",
+      "stops": [
+        "pb_asr_isbt",
+        "pb_jal_bus_stand",
+        "pb_ldh_bus_stand"
+      ],
+      "waypoints": [
+        [
+          31.62,
+          74.8765
+        ],
+        [
+          31.326,
+          75.5762
+        ],
+        [
+          30.901,
+          75.8573
+        ]
+      ]
+    },
+    {
+      "id": "hr_roadways_01",
+      "city": "haryana",
+      "state": "Haryana",
+      "routeNumber": "HR-EXP-01",
+      "operator": "Haryana Roadways",
+      "category": "EXPRESS",
+      "name": "Haryana Roadways: Gurugram to Faridabad & Panipat",
+      "origin": "Gurugram Rajiv Chowk Bus Terminal",
+      "destination": "Panipat GT Road Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 20,
+      "baseFare": 90,
+      "perKmFare": 1.3,
+      "color": "#0284c7",
+      "description": "High-speed industrial belt transit connecting Gurugram Rajiv Chowk, Faridabad, and Panipat GT Road.",
+      "firstBus": "05:30 AM",
+      "lastBus": "10:30 PM",
+      "stops": [
+        "hr_ggn_bus_stand",
+        "hr_fbd_bus_stand",
+        "hr_pnp_toll"
+      ],
+      "waypoints": [
+        [
+          28.4595,
+          77.0266
+        ],
+        [
+          28.4089,
+          77.3178
+        ],
+        [
+          29.3909,
+          76.9635
+        ]
+      ]
+    },
+    {
+      "id": "chd_ctu_101",
+      "city": "chandigarh",
+      "state": "Chandigarh UT",
+      "routeNumber": "CTU-101",
+      "operator": "CTU Chandigarh",
+      "category": "CITY_BUS",
+      "name": "CTU 101: Sector 17 ISBT to Sector 43 ISBT",
+      "origin": "Chandigarh ISBT Sector 17",
+      "destination": "Chandigarh ISBT Sector 43",
+      "type": "BUS",
+      "frequencyMinutes": 10,
+      "baseFare": 10,
+      "perKmFare": 1.2,
+      "color": "#06b6d4",
+      "description": "Connecting Central Chandigarh Sector 17 commercial hub with Inter-State Sector 43 Terminal.",
+      "firstBus": "06:00 AM",
+      "lastBus": "11:00 PM",
+      "stops": [
+        "chd_sec17",
+        "chd_sec43"
+      ],
+      "waypoints": [
+        [
+          30.739,
+          76.782
+        ],
+        [
+          30.72,
+          76.744
+        ]
+      ]
+    },
+    {
+      "id": "hp_hrtc_himgaurav",
+      "city": "himachal_pradesh",
+      "state": "Himachal Pradesh",
+      "routeNumber": "HP-HIM-01",
+      "operator": "HRTC Himgaurav AC",
+      "category": "INTERCITY",
+      "name": "HRTC Himgaurav: Shimla to Manali Valley Volvo",
+      "origin": "Shimla ISBT Tutikandi",
+      "destination": "Manali Mall Road HRTC Volvo Stand",
+      "type": "BUS",
+      "frequencyMinutes": 30,
+      "baseFare": 420,
+      "perKmFare": 1.8,
+      "color": "#10b981",
+      "description": "Mountain highway luxury AC coach linking Shimla Ridge via Dharamshala valley directly to Manali.",
+      "firstBus": "06:00 AM",
+      "lastBus": "09:30 PM",
+      "stops": [
+        "hp_sml_isbt",
+        "hp_dhm_stand",
+        "hp_mnl_volvo"
+      ],
+      "waypoints": [
+        [
+          31.0965,
+          77.153
+        ],
+        [
+          32.219,
+          76.3234
+        ],
+        [
+          32.2432,
+          77.1892
+        ]
+      ]
+    },
+    {
+      "id": "uk_utc_char_dham",
+      "city": "uttarakhand",
+      "state": "Uttarakhand",
+      "routeNumber": "UK-UTC-01",
+      "operator": "UTC Uttarakhand Roadways",
+      "category": "EXPRESS",
+      "name": "UTC Express: Dehradun to Haridwar & Rishikesh",
+      "origin": "Dehradun ISBT Haridwar Bypass",
+      "destination": "Rishikesh Triveni Ghat Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 15,
+      "baseFare": 85,
+      "perKmFare": 1.3,
+      "color": "#059669",
+      "description": "Spiritual corridor connecting Dehradun ISBT, Har Ki Pauri Haridwar, and Triveni Ghat Rishikesh.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:00 PM",
+      "stops": [
+        "uk_ddn_isbt",
+        "uk_hwr_stand",
+        "uk_rsk_stand"
+      ],
+      "waypoints": [
+        [
+          30.2863,
+          78.0064
+        ],
+        [
+          29.9457,
+          78.1642
+        ],
+        [
+          30.1033,
+          78.2948
+        ]
+      ]
+    },
+    {
+      "id": "jk_jksrtc_shrine",
+      "city": "jammu_kashmir",
+      "state": "Jammu & Kashmir",
+      "routeNumber": "JK-SRTC-01",
+      "operator": "JKSRTC Super Deluxe",
+      "category": "INTERCITY",
+      "name": "JKSRTC: Srinagar Dal Gate to Jammu & Katra Vaishno Devi",
+      "origin": "Srinagar TRC Dal Gate Bus Stand",
+      "destination": "Katra Vaishno Devi Bus Terminal",
+      "type": "BUS",
+      "frequencyMinutes": 30,
+      "baseFare": 350,
+      "perKmFare": 1.6,
+      "color": "#3b82f6",
+      "description": "National Highway 44 mountain route connecting Srinagar Dal Lake, Jammu General Stand, and Katra Shrine.",
+      "firstBus": "06:00 AM",
+      "lastBus": "08:30 PM",
+      "stops": [
+        "jk_srg_trc",
+        "jk_jam_general",
+        "jk_ktr_shrine"
+      ],
+      "waypoints": [
+        [
+          34.0754,
+          74.821
+        ],
+        [
+          32.7266,
+          74.857
+        ],
+        [
+          32.9922,
+          74.9317
+        ]
+      ]
+    },
+    {
+      "id": "lad_transit_01",
+      "city": "ladakh",
+      "state": "Ladakh UT",
+      "routeNumber": "LAD-EXP-01",
+      "operator": "Ladakh Autonomous Transport",
+      "category": "INTERCITY",
+      "name": "Ladakh Express: Leh to Kargil High Mountain Link",
+      "origin": "Leh Main Bus Stand & Polo Ground",
+      "destination": "Kargil Central Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 60,
+      "baseFare": 280,
+      "perKmFare": 1.5,
+      "color": "#8b5cf6",
+      "description": "High altitude Himalayan highway connecting Leh Polo Ground via Fotu La Pass to Kargil Suru Valley.",
+      "firstBus": "06:30 AM",
+      "lastBus": "04:00 PM",
+      "stops": [
+        "lad_leh_stand",
+        "lad_kgl_stand"
+      ],
+      "waypoints": [
+        [
+          34.1642,
+          77.5848
+        ],
+        [
+          34.5539,
+          76.1349
+        ]
+      ]
+    },
+    {
+      "id": "raj_express_01",
+      "city": "rajasthan",
+      "state": "Rajasthan",
+      "routeNumber": "RJ-EXP-01",
+      "operator": "RSRTC Super Express",
+      "category": "INTERCITY",
+      "name": "RSRTC Super Express: Jaipur to Jodhpur & Udaipur",
+      "origin": "Jaipur Sindhi Camp Central ISBT",
+      "destination": "Udaipur Udiyapole Central Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 20,
+      "baseFare": 310,
+      "perKmFare": 1.4,
+      "color": "#b91c1c",
+      "description": "Royal Rajasthan arterial service linking Jaipur Sindhi Camp, Jodhpur Paota, and Udaipur Lake City.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:30 PM",
+      "stops": [
+        "raj_sindhi_camp",
+        "raj_jodh_paota",
+        "raj_udp_udiyapole"
+      ],
+      "waypoints": [
+        [
+          26.9242,
+          75.7985
+        ],
+        [
+          26.2968,
+          73.0352
+        ],
+        [
+          24.5764,
+          73.699
+        ]
+      ]
+    },
+    {
+      "id": "guj_gsrtc_01",
+      "city": "gujarat",
+      "state": "Gujarat",
+      "routeNumber": "GJ-GSRTC-01",
+      "operator": "GSRTC Express",
+      "category": "INTERCITY",
+      "name": "GSRTC Express: Ahmedabad to Gandhinagar & Surat",
+      "origin": "Ahmedabad Gita Mandir Central Bus Stand",
+      "destination": "Surat Central Bus Station (GSRTC)",
+      "type": "BUS",
+      "frequencyMinutes": 15,
+      "baseFare": 180,
+      "perKmFare": 1.4,
+      "color": "#2563eb",
+      "description": "Industrial corridor connecting Gita Mandir, ISKCON, Gandhinagar Infocity, and Surat Diamond City.",
+      "firstBus": "05:30 AM",
+      "lastBus": "11:00 PM",
+      "stops": [
+        "guj_gita_mandir",
+        "guj_iskcon",
+        "guj_infocity",
+        "guj_srt_central"
+      ],
+      "waypoints": [
+        [
+          23.013,
+          72.589
+        ],
+        [
+          23.028,
+          72.507
+        ],
+        [
+          23.193,
+          72.628
+        ],
+        [
+          21.2052,
+          72.8406
+        ]
+      ]
+    },
+    {
+      "id": "mum_shivshahi_101",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "routeNumber": "MS-SHIV-01",
+      "operator": "MSRTC Shivshahi AC",
+      "category": "INTERCITY",
+      "name": "MSRTC Shivshahi: Mumbai Dadar to Pune Swargate AC",
+      "origin": "Dadar TT Circle & Central",
+      "destination": "Swargate Bus Stand & Depot",
+      "type": "BUS",
+      "frequencyMinutes": 15,
+      "baseFare": 280,
+      "perKmFare": 1.8,
+      "color": "#dc2626",
+      "description": "Mumbai-Pune Expressway premium Shivshahi luxury air-conditioned service linking Dadar, Vashi, and Pune Swargate.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:59 PM",
+      "stops": [
+        "mum_dadar",
+        "mum_vashi",
+        "pun_swargate"
+      ],
+      "waypoints": [
+        [
+          19.0178,
+          72.8478
+        ],
+        [
+          19.077,
+          72.998
+        ],
+        [
+          18.5018,
+          73.8586
+        ]
+      ]
+    },
+    {
+      "id": "goa_ktcl_shuttle",
+      "city": "goa",
+      "state": "Goa",
+      "routeNumber": "GA-KTCL-01",
+      "operator": "Kadamba KTCL AC",
+      "category": "CITY_BUS",
+      "name": "Kadamba Shuttle: Panaji to Margao Non-Stop AC",
+      "origin": "Panaji Kadamba Central Bus Stand",
+      "destination": "Margao Kadamba Inter-City Terminal",
+      "type": "BUS",
+      "frequencyMinutes": 10,
+      "baseFare": 45,
+      "perKmFare": 1.3,
+      "color": "#059669",
+      "description": "North to South Goa non-stop luxury shuttle linking Panaji Kadamba Terminal with Margao.",
+      "firstBus": "06:00 AM",
+      "lastBus": "10:30 PM",
+      "stops": [
+        "goa_panaji_ktcl",
+        "goa_margao_ktcl"
+      ],
+      "waypoints": [
+        [
+          15.4989,
+          73.8356
+        ],
+        [
+          15.2832,
+          73.9681
+        ]
+      ]
+    },
+    {
+      "id": "mp_transit_01",
+      "city": "madhya_pradesh",
+      "state": "Madhya Pradesh",
+      "routeNumber": "MP-EXP-01",
+      "operator": "MP City Transit Bus",
+      "category": "INTERCITY",
+      "name": "MP Express: Indore Sarwate to Bhopal ISBT",
+      "origin": "Indore Sarwate Bus Stand",
+      "destination": "Bhopal Kushabhau Thakre ISBT",
+      "type": "BUS",
+      "frequencyMinutes": 20,
+      "baseFare": 220,
+      "perKmFare": 1.4,
+      "color": "#ea580c",
+      "description": "Connecting commercial capital Indore Sarwate via Palasia BRTS directly to Bhopal ISBT.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:00 PM",
+      "stops": [
+        "mp_ind_sarwate",
+        "mp_ind_palasia",
+        "mp_bpl_isbt"
+      ],
+      "waypoints": [
+        [
+          22.716,
+          75.869
+        ],
+        [
+          22.724,
+          75.889
+        ],
+        [
+          23.2313,
+          77.4478
+        ]
+      ]
+    },
+    {
+      "id": "cg_transit_01",
+      "city": "chhattisgarh",
+      "state": "Chhattisgarh",
+      "routeNumber": "CG-EXP-01",
+      "operator": "Chhattisgarh State Transit",
+      "category": "EXPRESS",
+      "name": "CG Express: Raipur ISBT to Bilaspur",
+      "origin": "Raipur Sri Balaji ISBT Bhatagaon",
+      "destination": "Bilaspur High Court Road Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 20,
+      "baseFare": 140,
+      "perKmFare": 1.3,
+      "color": "#0284c7",
+      "description": "Capital city trunk link connecting Raipur Sri Balaji ISBT directly to Bilaspur High Court Road.",
+      "firstBus": "05:30 AM",
+      "lastBus": "10:00 PM",
+      "stops": [
+        "cg_rpr_isbt",
+        "cg_bsp_stand"
+      ],
+      "waypoints": [
+        [
+          21.2185,
+          81.6367
+        ],
+        [
+          22.0797,
+          82.1409
+        ]
+      ]
+    },
+    {
+      "id": "bih_bsrtc_01",
+      "city": "bihar",
+      "state": "Bihar",
+      "routeNumber": "BR-BSRTC-01",
+      "operator": "BSRTC Express",
+      "category": "EXPRESS",
+      "name": "BSRTC: Patna Gandhi Maidan to Gaya Bodhgaya",
+      "origin": "Gandhi Maidan Bus Terminal",
+      "destination": "Gaya Bodhgaya Tourist Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 20,
+      "baseFare": 130,
+      "perKmFare": 1.3,
+      "color": "#d97706",
+      "description": "Heritage Buddhist corridor connecting Patna Gandhi Maidan and Bairiya ISBT to Gaya Bodhgaya.",
+      "firstBus": "05:00 AM",
+      "lastBus": "10:00 PM",
+      "stops": [
+        "bih_gandhi_maidan",
+        "bih_bairiya",
+        "bih_gaya_stand"
+      ],
+      "waypoints": [
+        [
+          25.617,
+          85.148
+        ],
+        [
+          25.568,
+          85.201
+        ],
+        [
+          24.7955,
+          85.0002
+        ]
+      ]
+    },
+    {
+      "id": "jh_transit_01",
+      "city": "jharkhand",
+      "state": "Jharkhand",
+      "routeNumber": "JH-EXP-01",
+      "operator": "Jharkhand State Express",
+      "category": "EXPRESS",
+      "name": "Jharkhand Express: Ranchi to Jamshedpur Steel City",
+      "origin": "Ranchi Khadgarha Bus Stand",
+      "destination": "Jamshedpur Mango Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 25,
+      "baseFare": 160,
+      "perKmFare": 1.4,
+      "color": "#059669",
+      "description": "Key industrial connector linking Ranchi Khadgarha Bus Stand to Jamshedpur Mango Stand.",
+      "firstBus": "05:30 AM",
+      "lastBus": "09:30 PM",
+      "stops": [
+        "jh_rnc_khadgarha",
+        "jh_jsr_manango"
+      ],
+      "waypoints": [
+        [
+          23.3619,
+          85.3436
+        ],
+        [
+          22.819,
+          86.2081
+        ]
+      ]
+    },
+    {
+      "id": "kol_wbtc_01",
+      "city": "west_bengal",
+      "state": "West Bengal",
+      "routeNumber": "WBTC-S12",
+      "operator": "WBTC City Express",
+      "category": "CITY_BUS",
+      "name": "WBTC S-12: Howrah Station to Salt Lake IT Sector V",
+      "origin": "Howrah Station Bus Stand",
+      "destination": "Salt Lake Sector V (IT Hub)",
+      "type": "BUS",
+      "frequencyMinutes": 8,
+      "baseFare": 10,
+      "perKmFare": 1.2,
+      "color": "#0284c7",
+      "description": "Connecting Howrah railway terminus via Esplanade Dharmatala to Salt Lake IT Sector V.",
+      "firstBus": "05:15 AM",
+      "lastBus": "11:15 PM",
+      "stops": [
+        "kol_howrah",
+        "kol_esplanade",
+        "kol_salt_lake"
+      ],
+      "waypoints": [
+        [
+          22.585,
+          88.3426
+        ],
+        [
+          22.5647,
+          88.3516
+        ],
+        [
+          22.5735,
+          88.4331
+        ]
+      ]
+    },
+    {
+      "id": "od_osrtc_puri",
+      "city": "odisha",
+      "state": "Odisha",
+      "routeNumber": "OD-MO-01",
+      "operator": "Mo Bus CRUT Odisha",
+      "category": "EXPRESS",
+      "name": "Mo Bus Express: Bhubaneswar to Puri Jagannath Dham",
+      "origin": "Bhubaneswar Baramunda ISBT (Babasaheb Ambedkar)",
+      "destination": "Puri Jagannath Dham Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 12,
+      "baseFare": 60,
+      "perKmFare": 1.2,
+      "color": "#059669",
+      "description": "Electric AC Mo Bus transit connecting Baramunda ISBT Bhubaneswar directly to Holy Puri Sea Beach.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:00 PM",
+      "stops": [
+        "od_bbi_baramunda",
+        "od_puri_stand"
+      ],
+      "waypoints": [
+        [
+          20.2798,
+          85.7925
+        ],
+        [
+          19.8135,
+          85.8312
+        ]
+      ]
+    },
+    {
+      "id": "blr_bmtc_500d",
+      "city": "karnataka",
+      "state": "Karnataka",
+      "routeNumber": "BMTC-500D",
+      "operator": "BMTC Volvo AC",
+      "category": "CITY_BUS",
+      "name": "BMTC 500D: Majestic to Silk Board & Whitefield",
+      "origin": "Kempegowda Majestic Bus Station",
+      "destination": "ITPL Whitefield Terminal",
+      "type": "BUS",
+      "frequencyMinutes": 6,
+      "baseFare": 15,
+      "perKmFare": 1.8,
+      "color": "#0284c7",
+      "description": "Outer Ring Road IT corridor connecting Kempegowda Majestic, Central Silk Board, and ITPL Whitefield.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:45 PM",
+      "stops": [
+        "blr_majestic",
+        "blr_mg_road",
+        "blr_silk_board",
+        "blr_whitefield"
+      ],
+      "waypoints": [
+        [
+          12.9778,
+          77.5726
+        ],
+        [
+          12.9756,
+          77.6094
+        ],
+        [
+          12.9177,
+          77.6238
+        ],
+        [
+          12.9866,
+          77.7376
+        ]
+      ]
+    },
+    {
+      "id": "tn_mtc_570",
+      "city": "tamil_nadu",
+      "state": "Tamil Nadu",
+      "routeNumber": "MTC-570",
+      "operator": "MTC Chennai Express",
+      "category": "CITY_BUS",
+      "name": "MTC 570: CMBT Koyambedu to Siruseri IT Park (OMR)",
+      "origin": "CMBT Koyambedu Terminal",
+      "destination": "Siruseri SIPCOT IT Park (OMR)",
+      "type": "BUS",
+      "frequencyMinutes": 10,
+      "baseFare": 15,
+      "perKmFare": 1.5,
+      "color": "#2563eb",
+      "description": "OMR Express connecting CMBT bus terminal, Guindy Kathipara, and Siruseri SIPCOT IT Park.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:00 PM",
+      "stops": [
+        "che_cmbt",
+        "che_guindy",
+        "che_siruseri"
+      ],
+      "waypoints": [
+        [
+          13.0694,
+          80.2057
+        ],
+        [
+          13.0067,
+          80.2023
+        ],
+        [
+          12.8256,
+          80.2195
+        ]
+      ]
+    },
+    {
+      "id": "ts_tsrtc_10h",
+      "city": "telangana",
+      "state": "Telangana",
+      "routeNumber": "TSRTC-10H",
+      "operator": "TSRTC Metro Express",
+      "category": "CITY_BUS",
+      "name": "TSRTC 10H: Secunderabad to Hitec City & Gachibowli",
+      "origin": "Secunderabad Junction & Station",
+      "destination": "Gachibowli Stadium & WaveRock",
+      "type": "BUS",
+      "frequencyMinutes": 10,
+      "baseFare": 15,
+      "perKmFare": 1.6,
+      "color": "#059669",
+      "description": "Major transit artery linking Secunderabad station through MGBS, Cyber Towers, and Gachibowli.",
+      "firstBus": "05:30 AM",
+      "lastBus": "11:30 PM",
+      "stops": [
+        "hyd_secunderabad",
+        "hyd_mgbs",
+        "hyd_hitec_city",
+        "hyd_gachibowli"
+      ],
+      "waypoints": [
+        [
+          17.4399,
+          78.4983
+        ],
+        [
+          17.3789,
+          78.4812
+        ],
+        [
+          17.4504,
+          78.3808
+        ],
+        [
+          17.4401,
+          78.3489
+        ]
+      ]
+    },
+    {
+      "id": "ap_apsrtc_01",
+      "city": "andhra_pradesh",
+      "state": "Andhra Pradesh",
+      "routeNumber": "AP-RTC-01",
+      "operator": "APSRTC Garuda AC",
+      "category": "INTERCITY",
+      "name": "APSRTC Garuda: Vijayawada PNBS to Tirupati Shrine",
+      "origin": "Vijayawada Pandit Nehru Bus Station (PNBS)",
+      "destination": "Tirupati Central APSRTC Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 20,
+      "baseFare": 360,
+      "perKmFare": 1.6,
+      "color": "#0284c7",
+      "description": "Luxury AC coach service connecting Vijayawada PNBS, Guntur, and Tirupati Balaji Shrine.",
+      "firstBus": "05:00 AM",
+      "lastBus": "11:00 PM",
+      "stops": [
+        "ap_vja_pnbs",
+        "ap_tpt_central"
+      ],
+      "waypoints": [
+        [
+          16.5085,
+          80.6212
+        ],
+        [
+          13.6288,
+          79.4192
+        ]
+      ]
+    },
+    {
+      "id": "kl_ksrtc_minnal",
+      "city": "kerala",
+      "state": "Kerala",
+      "routeNumber": "KL-MIN-01",
+      "operator": "KSRTC Minnal Super Express",
+      "category": "EXPRESS",
+      "name": "KSRTC Minnal: Thiruvananthapuram to Kochi Vyttila",
+      "origin": "Thiruvananthapuram Thampanoor Central KSRTC",
+      "destination": "Kochi Vyttila Mobility Hub",
+      "type": "BUS",
+      "frequencyMinutes": 15,
+      "baseFare": 210,
+      "perKmFare": 1.5,
+      "color": "#b91c1c",
+      "description": "High-speed coastal express linking Thiruvananthapuram Thampanoor with Kochi Vyttila Mobility Hub.",
+      "firstBus": "04:30 AM",
+      "lastBus": "11:45 PM",
+      "stops": [
+        "kl_tvm_thampanoor",
+        "kl_cok_vytilla"
+      ],
+      "waypoints": [
+        [
+          8.487,
+          76.953
+        ],
+        [
+          9.9678,
+          76.3214
+        ]
+      ]
+    },
+    {
+      "id": "py_prtc_01",
+      "city": "puducherry",
+      "state": "Puducherry UT",
+      "routeNumber": "PY-PRTC-01",
+      "operator": "PRTC Puducherry",
+      "category": "CITY_BUS",
+      "name": "PRTC 01: Puducherry New Bus Stand to White Town & Beach",
+      "origin": "Puducherry New Bus Stand Maraimalai Adigal",
+      "destination": "Puducherry New Bus Stand Maraimalai Adigal",
+      "type": "BUS",
+      "frequencyMinutes": 10,
+      "baseFare": 10,
+      "perKmFare": 1.1,
+      "color": "#06b6d4",
+      "description": "French heritage coastal circular transit linking New Bus Stand, Promenade Beach, and White Town.",
+      "firstBus": "06:00 AM",
+      "lastBus": "10:00 PM",
+      "stops": [
+        "py_pdy_new_stand"
+      ],
+      "waypoints": [
+        [
+          11.9324,
+          79.8142
+        ],
+        [
+          11.936,
+          79.832
+        ]
+      ]
+    },
+    {
+      "id": "as_astc_01",
+      "city": "assam",
+      "state": "Assam",
+      "routeNumber": "AS-ASTC-01",
+      "operator": "ASTC Super Express",
+      "category": "INTERCITY",
+      "name": "ASTC: Guwahati ISBT to Dibrugarh Tea Capital",
+      "origin": "Guwahati ISBT Betkuchi",
+      "destination": "Dibrugarh ASTC Bus Station",
+      "type": "BUS",
+      "frequencyMinutes": 30,
+      "baseFare": 320,
+      "perKmFare": 1.4,
+      "color": "#10b981",
+      "description": "National Highway corridor connecting Guwahati ISBT via Nagaon and Jorhat to Dibrugarh.",
+      "firstBus": "05:30 AM",
+      "lastBus": "08:30 PM",
+      "stops": [
+        "as_ghy_isbt",
+        "as_ghy_paltan",
+        "as_dbr_chowk"
+      ],
+      "waypoints": [
+        [
+          26.1158,
+          91.7086
+        ],
+        [
+          26.1812,
+          91.7511
+        ],
+        [
+          27.4728,
+          94.912
+        ]
+      ]
+    },
+    {
+      "id": "ml_mtc_01",
+      "city": "meghalaya",
+      "state": "Meghalaya",
+      "routeNumber": "ML-MTC-01",
+      "operator": "MTC Meghalaya Transit",
+      "category": "EXPRESS",
+      "name": "MTC Shuttle: Shillong Police Bazar to Cherrapunji (Sohra)",
+      "origin": "Shillong Police Bazar Main Stand",
+      "destination": "Cherrapunji (Sohra) Tourist Stand",
+      "type": "BUS",
+      "frequencyMinutes": 30,
+      "baseFare": 95,
+      "perKmFare": 1.4,
+      "color": "#059669",
+      "description": "Scenic cloud mountain transit connecting Shillong Police Bazar to Cherrapunji waterfalls.",
+      "firstBus": "06:30 AM",
+      "lastBus": "05:30 PM",
+      "stops": [
+        "ml_shl_police_bazar",
+        "ml_chp_sohra"
+      ],
+      "waypoints": [
+        [
+          25.5788,
+          91.8933
+        ],
+        [
+          25.2986,
+          91.7324
+        ]
+      ]
+    },
+    {
+      "id": "sk_snt_01",
+      "city": "sikkim",
+      "state": "Sikkim",
+      "routeNumber": "SK-SNT-01",
+      "operator": "SNT Sikkim Nationalised",
+      "category": "INTERCITY",
+      "name": "SNT Express: Gangtok Deorali to Namchi & Siliguri",
+      "origin": "Gangtok Deorali SNT Bus Stand",
+      "destination": "Namchi Central Bus Park",
+      "type": "BUS",
+      "frequencyMinutes": 30,
+      "baseFare": 120,
+      "perKmFare": 1.5,
+      "color": "#ea580c",
+      "description": "Himalayan mountain route connecting Gangtok Deorali via Teesta river valley to Namchi.",
+      "firstBus": "06:00 AM",
+      "lastBus": "04:30 PM",
+      "stops": [
+        "sk_gtk_deorali",
+        "sk_nmc_bazaar"
+      ],
+      "waypoints": [
+        [
+          27.32,
+          88.608
+        ],
+        [
+          27.1667,
+          88.35
+        ]
+      ]
+    },
+    {
+      "id": "ar_apsts_01",
+      "city": "arunachal_pradesh",
+      "state": "Arunachal Pradesh",
+      "routeNumber": "AR-STS-01",
+      "operator": "APSTS Arunachal Roadways",
+      "category": "INTERCITY",
+      "name": "APSTS: Itanagar Ganga Market to Tawang Monastery",
+      "origin": "Itanagar Ganga Market APSTS Bus Station",
+      "destination": "Tawang Monastery Tourist Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 60,
+      "baseFare": 450,
+      "perKmFare": 1.6,
+      "color": "#dc2626",
+      "description": "High pass Himalayan mountain transit from Itanagar through Sela Pass to Tawang.",
+      "firstBus": "05:30 AM",
+      "lastBus": "02:00 PM",
+      "stops": [
+        "ar_ita_ganga",
+        "ar_twg_stand"
+      ],
+      "waypoints": [
+        [
+          27.0844,
+          93.6053
+        ],
+        [
+          27.5861,
+          91.8594
+        ]
+      ]
+    },
+    {
+      "id": "nl_nst_01",
+      "city": "nagaland",
+      "state": "Nagaland",
+      "routeNumber": "NL-NST-01",
+      "operator": "NST Nagaland Transport",
+      "category": "EXPRESS",
+      "name": "NST Highway: Kohima ISBT to Dimapur Railway Stand",
+      "origin": "Kohima NST Central Bus Station",
+      "destination": "Dimapur Railway NST Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 20,
+      "baseFare": 110,
+      "perKmFare": 1.4,
+      "color": "#0284c7",
+      "description": "Primary hill highway connecting State capital Kohima directly with railhead Dimapur.",
+      "firstBus": "06:00 AM",
+      "lastBus": "05:00 PM",
+      "stops": [
+        "nl_khm_isbt",
+        "nl_dmp_railway"
+      ],
+      "waypoints": [
+        [
+          25.6751,
+          94.1086
+        ],
+        [
+          25.9064,
+          93.727
+        ]
+      ]
+    },
+    {
+      "id": "mn_msrtc_01",
+      "city": "manipur",
+      "state": "Manipur",
+      "routeNumber": "MN-RTC-01",
+      "operator": "Manipur State Transit",
+      "category": "EXPRESS",
+      "name": "Manipur Express: Imphal North AOC to Churachandpur",
+      "origin": "Imphal North AOC Inter-State Bus Stand",
+      "destination": "Churachandpur Main Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 30,
+      "baseFare": 120,
+      "perKmFare": 1.4,
+      "color": "#7c3aed",
+      "description": "Imphal valley to hill district highway connecting Imphal North AOC with Churachandpur.",
+      "firstBus": "06:00 AM",
+      "lastBus": "04:30 PM",
+      "stops": [
+        "mn_imp_aoc",
+        "mn_ccp_stand"
+      ],
+      "waypoints": [
+        [
+          24.817,
+          93.9368
+        ],
+        [
+          24.3333,
+          93.6667
+        ]
+      ]
+    },
+    {
+      "id": "mz_mst_01",
+      "city": "mizoram",
+      "state": "Mizoram",
+      "routeNumber": "MZ-MST-01",
+      "operator": "MST Mizoram State Transport",
+      "category": "INTERCITY",
+      "name": "MST Express: Aizawl Thuampui to Lunglei South",
+      "origin": "Aizawl Thuampui Inter-State Bus Terminal",
+      "destination": "Lunglei Central Bus Stand",
+      "type": "BUS",
+      "frequencyMinutes": 45,
+      "baseFare": 260,
+      "perKmFare": 1.5,
+      "color": "#059669",
+      "description": "Mountain highway connecting capital Aizawl Thuampui to southern commercial center Lunglei.",
+      "firstBus": "06:00 AM",
+      "lastBus": "03:30 PM",
+      "stops": [
+        "mz_azl_thuampui",
+        "mz_lng_stand"
+      ],
+      "waypoints": [
+        [
+          23.75,
+          92.74
+        ],
+        [
+          22.88,
+          92.73
+        ]
+      ]
+    },
+    {
+      "id": "tr_trtc_01",
+      "city": "tripura",
+      "state": "Tripura",
+      "routeNumber": "TR-TRTC-01",
+      "operator": "TRTC Tripura Roadways",
+      "category": "EXPRESS",
+      "name": "TRTC Express: Agartala to Udaipur Matabari Temple",
+      "origin": "Agartala Radhanagar Central Bus Stand",
+      "destination": "Udaipur Tripura Sundari Matabari Stand",
+      "type": "BUS",
+      "frequencyMinutes": 20,
+      "baseFare": 75,
+      "perKmFare": 1.3,
+      "color": "#2563eb",
+      "description": "Connecting Agartala capital terminal with heritage Tripura Sundari Matabari Dham in Udaipur.",
+      "firstBus": "06:00 AM",
+      "lastBus": "07:30 PM",
+      "stops": [
+        "tr_agt_radhanagar",
+        "tr_udp_matabari"
+      ],
+      "waypoints": [
+        [
+          23.8315,
+          91.2868
+        ],
+        [
+          23.5333,
+          91.4833
+        ]
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "id": "up_lko_charbagh",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Lucknow Charbagh Railway & Bus Station",
+      "lat": 26.8322,
+      "lng": 80.9202,
+      "zone": "Central Lucknow"
+    },
+    {
+      "id": "up_lko_alambagh",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Alambagh ISBT Bus Terminal",
+      "lat": 26.8124,
+      "lng": 80.9023,
+      "zone": "South Lucknow"
+    },
+    {
+      "id": "up_lko_hazratganj",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Hazratganj Central Square",
+      "lat": 26.853,
+      "lng": 80.946,
+      "zone": "Central Lucknow"
+    },
+    {
+      "id": "up_lko_gomti_nagar",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Gomti Nagar / Patrakar Puram",
+      "lat": 26.857,
+      "lng": 80.998,
+      "zone": "East Lucknow"
+    },
+    {
+      "id": "up_lko_polytechnic",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Polytechnic Chauraha Hub",
+      "lat": 26.872,
+      "lng": 80.995,
+      "zone": "East Lucknow"
+    },
+    {
+      "id": "up_lko_munshi_pulia",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Munshi Pulia Metro Terminal",
+      "lat": 26.8872,
+      "lng": 80.989,
+      "zone": "North Lucknow"
+    },
+    {
+      "id": "up_lko_airport",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Amausi CCS Airport Terminal",
+      "lat": 26.7606,
+      "lng": 80.8893,
+      "zone": "South Lucknow"
+    },
+    {
+      "id": "up_lko_kamta",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Kamta Bus Stand / Shaheed Path",
+      "lat": 26.877,
+      "lng": 81.034,
+      "zone": "East Lucknow"
+    },
+    {
+      "id": "up_knp_central",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Kanpur Central Bus Stand",
+      "lat": 26.4547,
+      "lng": 80.3507,
+      "zone": "Central Kanpur"
+    },
+    {
+      "id": "up_knp_jhakarkati",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Jhakarkati Inter-State Bus Stand (ISBT)",
+      "lat": 26.4503,
+      "lng": 80.344,
+      "zone": "Central Kanpur"
+    },
+    {
+      "id": "up_knp_rawatpur",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Rawatpur / Moti Jheel",
+      "lat": 26.482,
+      "lng": 80.306,
+      "zone": "West Kanpur"
+    },
+    {
+      "id": "up_knp_iit",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "IIT Kanpur Main Gate / Kalyanpur",
+      "lat": 26.5123,
+      "lng": 80.2329,
+      "zone": "North-West Kanpur"
+    },
+    {
+      "id": "up_vns_cantt",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Varanasi Cantt UPSRTC Bus Terminal",
+      "lat": 25.3284,
+      "lng": 82.9868,
+      "zone": "Central Varanasi"
+    },
+    {
+      "id": "up_vns_godowlia",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Godowlia / Kashi Vishwanath Dham",
+      "lat": 25.309,
+      "lng": 83.006,
+      "zone": "Heritage Ghats"
+    },
+    {
+      "id": "up_vns_bhu",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Banaras Hindu University (BHU Lanka)",
+      "lat": 25.28,
+      "lng": 82.999,
+      "zone": "South Varanasi"
+    },
+    {
+      "id": "up_pry_civil_lines",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Civil Lines Bus Station Prayagraj",
+      "lat": 25.453,
+      "lng": 81.834,
+      "zone": "Central Prayagraj"
+    },
+    {
+      "id": "up_pry_sangam",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Triveni Sangam Ghat",
+      "lat": 25.428,
+      "lng": 81.884,
+      "zone": "Holy Sangam"
+    },
+    {
+      "id": "up_ayd_dham",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Ayodhya Dham Ram Mandir Gate",
+      "lat": 26.799,
+      "lng": 82.203,
+      "zone": "Ayodhya Dham"
+    },
+    {
+      "id": "up_gkp_terminal",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Gorakhpur Railway Bus Stand",
+      "lat": 26.757,
+      "lng": 83.382,
+      "zone": "Gorakhpur Hub"
+    },
+    {
+      "id": "up_agr_isbt",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Agra ISBT Transport Nagar",
+      "lat": 27.209,
+      "lng": 77.962,
+      "zone": "North Agra"
+    },
+    {
+      "id": "up_agr_cantt",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Agra Cantt & Idgah Bus Stand",
+      "lat": 27.158,
+      "lng": 77.989,
+      "zone": "Central Agra"
+    },
+    {
+      "id": "up_agr_taj",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Taj Mahal East Gate Terminal",
+      "lat": 27.175,
+      "lng": 78.0422,
+      "zone": "Taj Heritage"
+    },
+    {
+      "id": "up_mth_isbt",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Mathura ISBT New Bus Stand",
+      "lat": 27.4924,
+      "lng": 77.6737,
+      "zone": "Mathura Central"
+    },
+    {
+      "id": "up_mth_vrindavan",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Vrindavan Prem Mandir / Chatikara",
+      "lat": 27.5706,
+      "lng": 77.6963,
+      "zone": "Vrindavan Dham"
+    },
+    {
+      "id": "up_noi_sec62",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Noida Sector 62 Electronic City",
+      "lat": 28.6258,
+      "lng": 77.3688,
+      "zone": "Noida IT Hub"
+    },
+    {
+      "id": "up_noi_botanical",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Botanical Garden Metro Bus Depot",
+      "lat": 28.5645,
+      "lng": 77.3344,
+      "zone": "Central Noida"
+    },
+    {
+      "id": "up_noi_pari_chowk",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Greater Noida Pari Chowk Terminal",
+      "lat": 28.4682,
+      "lng": 77.509,
+      "zone": "Greater Noida"
+    },
+    {
+      "id": "up_noi_jewar",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Jewar Noida International Airport Hub",
+      "lat": 28.167,
+      "lng": 77.618,
+      "zone": "Jewar Aerocity"
+    },
+    {
+      "id": "up_mrt_bhainsali",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Meerut Bhainsali Bus Stand",
+      "lat": 28.986,
+      "lng": 77.702,
+      "zone": "Meerut Central"
+    },
+    {
+      "id": "up_ghz_old",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Ghaziabad Old Bus Stand",
+      "lat": 28.669,
+      "lng": 77.436,
+      "zone": "Ghaziabad Central"
+    },
+    {
+      "id": "up_bly_satellite",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Bareilly Satellite Bus Stand",
+      "lat": 28.348,
+      "lng": 79.432,
+      "zone": "Bareilly Hub"
+    },
+    {
+      "id": "up_mbd_bus_stand",
+      "city": "uttar_pradesh",
+      "state": "Uttar Pradesh",
+      "name": "Moradabad Central Bus Station",
+      "lat": 28.8386,
+      "lng": 78.7733,
+      "zone": "Moradabad Central"
+    },
+    {
+      "id": "delhi_kg",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "Kashmere Gate ISBT",
+      "lat": 28.6675,
+      "lng": 77.2285,
+      "zone": "North"
+    },
+    {
+      "id": "delhi_chandni",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "Chandni Chowk / Red Fort",
+      "lat": 28.6506,
+      "lng": 77.2303,
+      "zone": "Central"
+    },
+    {
+      "id": "delhi_ito",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "ITO Transit Hub",
+      "lat": 28.6292,
+      "lng": 77.242,
+      "zone": "Central"
+    },
+    {
+      "id": "delhi_cp",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "Connaught Place (Inner Circle)",
+      "lat": 28.6315,
+      "lng": 77.2167,
+      "zone": "Central"
+    },
+    {
+      "id": "delhi_mandi",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "Mandi House Interchange",
+      "lat": 28.6258,
+      "lng": 77.2343,
+      "zone": "Central"
+    },
+    {
+      "id": "delhi_india_gate",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "India Gate / National Stadium",
+      "lat": 28.6129,
+      "lng": 77.2295,
+      "zone": "Central"
+    },
+    {
+      "id": "delhi_aiims",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "AIIMS / Safdarjung Hospital",
+      "lat": 28.5672,
+      "lng": 77.21,
+      "zone": "South"
+    },
+    {
+      "id": "delhi_saket",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "Saket District Centre / Mall",
+      "lat": 28.5283,
+      "lng": 77.2195,
+      "zone": "South"
+    },
+    {
+      "id": "delhi_anand_vihar",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "Anand Vihar ISBT & Terminal",
+      "lat": 28.6469,
+      "lng": 77.316,
+      "zone": "East"
+    },
+    {
+      "id": "delhi_karol_bagh",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "Karol Bagh Market",
+      "lat": 28.6517,
+      "lng": 77.1906,
+      "zone": "West"
+    },
+    {
+      "id": "delhi_kapashera",
+      "city": "delhi",
+      "state": "Delhi",
+      "name": "Kapashera Border / Airport Road",
+      "lat": 28.5255,
+      "lng": 77.085,
+      "zone": "South-West"
+    },
+    {
+      "id": "pb_asr_isbt",
+      "city": "punjab",
+      "state": "Punjab",
+      "name": "Amritsar Golden Temple ISBT",
+      "lat": 31.62,
+      "lng": 74.8765,
+      "zone": "Central Amritsar"
+    },
+    {
+      "id": "pb_ldh_bus_stand",
+      "city": "punjab",
+      "state": "Punjab",
+      "name": "Ludhiana Amar Shaheed Sukhdev ISBT",
+      "lat": 30.901,
+      "lng": 75.8573,
+      "zone": "Central Ludhiana"
+    },
+    {
+      "id": "pb_jal_bus_stand",
+      "city": "punjab",
+      "state": "Punjab",
+      "name": "Jalandhar Shaheed-e-Azam ISBT",
+      "lat": 31.326,
+      "lng": 75.5762,
+      "zone": "Central Jalandhar"
+    },
+    {
+      "id": "hr_ggn_bus_stand",
+      "city": "haryana",
+      "state": "Haryana",
+      "name": "Gurugram Rajiv Chowk Bus Terminal",
+      "lat": 28.4595,
+      "lng": 77.0266,
+      "zone": "Central Gurugram"
+    },
+    {
+      "id": "hr_fbd_bus_stand",
+      "city": "haryana",
+      "state": "Haryana",
+      "name": "Faridabad Old Bus Stand",
+      "lat": 28.4089,
+      "lng": 77.3178,
+      "zone": "Central Faridabad"
+    },
+    {
+      "id": "hr_pnp_toll",
+      "city": "haryana",
+      "state": "Haryana",
+      "name": "Panipat GT Road Bus Stand",
+      "lat": 29.3909,
+      "lng": 76.9635,
+      "zone": "Panipat GT Road"
+    },
+    {
+      "id": "chd_sec43",
+      "city": "chandigarh",
+      "state": "Chandigarh UT",
+      "name": "Chandigarh ISBT Sector 43",
+      "lat": 30.72,
+      "lng": 76.744,
+      "zone": "South Chandigarh"
+    },
+    {
+      "id": "chd_sec17",
+      "city": "chandigarh",
+      "state": "Chandigarh UT",
+      "name": "Chandigarh ISBT Sector 17",
+      "lat": 30.739,
+      "lng": 76.782,
+      "zone": "Central Chandigarh"
+    },
+    {
+      "id": "hp_sml_isbt",
+      "city": "himachal_pradesh",
+      "state": "Himachal Pradesh",
+      "name": "Shimla ISBT Tutikandi",
+      "lat": 31.0965,
+      "lng": 77.153,
+      "zone": "Shimla Ridge"
+    },
+    {
+      "id": "hp_mnl_volvo",
+      "city": "himachal_pradesh",
+      "state": "Himachal Pradesh",
+      "name": "Manali Mall Road HRTC Volvo Stand",
+      "lat": 32.2432,
+      "lng": 77.1892,
+      "zone": "Central Manali"
+    },
+    {
+      "id": "hp_dhm_stand",
+      "city": "himachal_pradesh",
+      "state": "Himachal Pradesh",
+      "name": "Dharamshala McLeod Ganj Bus Stand",
+      "lat": 32.219,
+      "lng": 76.3234,
+      "zone": "Kangra Valley"
+    },
+    {
+      "id": "uk_ddn_isbt",
+      "city": "uttarakhand",
+      "state": "Uttarakhand",
+      "name": "Dehradun ISBT Haridwar Bypass",
+      "lat": 30.2863,
+      "lng": 78.0064,
+      "zone": "South Dehradun"
+    },
+    {
+      "id": "uk_hwr_stand",
+      "city": "uttarakhand",
+      "state": "Uttarakhand",
+      "name": "Haridwar Har Ki Pauri Bus Stand",
+      "lat": 29.9457,
+      "lng": 78.1642,
+      "zone": "Holy Haridwar"
+    },
+    {
+      "id": "uk_rsk_stand",
+      "city": "uttarakhand",
+      "state": "Uttarakhand",
+      "name": "Rishikesh Triveni Ghat Bus Stand",
+      "lat": 30.1033,
+      "lng": 78.2948,
+      "zone": "Rishikesh Hub"
+    },
+    {
+      "id": "jk_srg_trc",
+      "city": "jammu_kashmir",
+      "state": "Jammu & Kashmir",
+      "name": "Srinagar TRC Dal Gate Bus Stand",
+      "lat": 34.0754,
+      "lng": 74.821,
+      "zone": "Dal Lake Hub"
+    },
+    {
+      "id": "jk_jam_general",
+      "city": "jammu_kashmir",
+      "state": "Jammu & Kashmir",
+      "name": "Jammu General Bus Stand",
+      "lat": 32.7266,
+      "lng": 74.857,
+      "zone": "Jammu Tawi"
+    },
+    {
+      "id": "jk_ktr_shrine",
+      "city": "jammu_kashmir",
+      "state": "Jammu & Kashmir",
+      "name": "Katra Vaishno Devi Bus Terminal",
+      "lat": 32.9922,
+      "lng": 74.9317,
+      "zone": "Holy Katra"
+    },
+    {
+      "id": "lad_leh_stand",
+      "city": "ladakh",
+      "state": "Ladakh UT",
+      "name": "Leh Main Bus Stand & Polo Ground",
+      "lat": 34.1642,
+      "lng": 77.5848,
+      "zone": "Central Leh"
+    },
+    {
+      "id": "lad_kgl_stand",
+      "city": "ladakh",
+      "state": "Ladakh UT",
+      "name": "Kargil Central Bus Stand",
+      "lat": 34.5539,
+      "lng": 76.1349,
+      "zone": "Suru Valley"
+    },
+    {
+      "id": "raj_sindhi_camp",
+      "city": "rajasthan",
+      "state": "Rajasthan",
+      "name": "Jaipur Sindhi Camp Central ISBT",
+      "lat": 26.9242,
+      "lng": 75.7985,
+      "zone": "Central Jaipur"
+    },
+    {
+      "id": "raj_ajmer_gate",
+      "city": "rajasthan",
+      "state": "Rajasthan",
+      "name": "Ajmeri Gate & MI Road",
+      "lat": 26.915,
+      "lng": 75.819,
+      "zone": "Walled City"
+    },
+    {
+      "id": "raj_amber_fort",
+      "city": "rajasthan",
+      "state": "Rajasthan",
+      "name": "Amber Fort Heritage Bus Stand",
+      "lat": 26.9855,
+      "lng": 75.8513,
+      "zone": "North Heritage"
+    },
+    {
+      "id": "raj_jodh_paota",
+      "city": "rajasthan",
+      "state": "Rajasthan",
+      "name": "Jodhpur Paota Central Bus Stand",
+      "lat": 26.2968,
+      "lng": 73.0352,
+      "zone": "Sun City Jodhpur"
+    },
+    {
+      "id": "raj_udp_udiyapole",
+      "city": "rajasthan",
+      "state": "Rajasthan",
+      "name": "Udaipur Udiyapole Central Bus Stand",
+      "lat": 24.5764,
+      "lng": 73.699,
+      "zone": "Lake City Udaipur"
+    },
+    {
+      "id": "guj_gita_mandir",
+      "city": "gujarat",
+      "state": "Gujarat",
+      "name": "Ahmedabad Gita Mandir Central Bus Stand",
+      "lat": 23.013,
+      "lng": 72.589,
+      "zone": "Central Ahmedabad"
+    },
+    {
+      "id": "guj_iskcon",
+      "city": "gujarat",
+      "state": "Gujarat",
+      "name": "ISKCON Cross Road SG Highway",
+      "lat": 23.028,
+      "lng": 72.507,
+      "zone": "West Ahmedabad"
+    },
+    {
+      "id": "guj_infocity",
+      "city": "gujarat",
+      "state": "Gujarat",
+      "name": "Gandhinagar Infocity Tech Park",
+      "lat": 23.193,
+      "lng": 72.628,
+      "zone": "Gandhinagar Hub"
+    },
+    {
+      "id": "guj_srt_central",
+      "city": "gujarat",
+      "state": "Gujarat",
+      "name": "Surat Central Bus Station (GSRTC)",
+      "lat": 21.2052,
+      "lng": 72.8406,
+      "zone": "Diamond City Surat"
+    },
+    {
+      "id": "mum_csmt",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "name": "CSMT Station / Fort",
+      "lat": 18.9401,
+      "lng": 72.8354,
+      "zone": "South Mumbai"
+    },
+    {
+      "id": "mum_dadar",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "name": "Dadar TT Circle & Central",
+      "lat": 19.0178,
+      "lng": 72.8478,
+      "zone": "Central Mumbai"
+    },
+    {
+      "id": "mum_andheri",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "name": "Andheri Station West",
+      "lat": 19.1197,
+      "lng": 72.8464,
+      "zone": "Western Suburbs"
+    },
+    {
+      "id": "mum_borivali",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "name": "Borivali Station East",
+      "lat": 19.2288,
+      "lng": 72.8541,
+      "zone": "North Western"
+    },
+    {
+      "id": "mum_vashi",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "name": "Navi Mumbai Vashi Plaza",
+      "lat": 19.077,
+      "lng": 72.998,
+      "zone": "Navi Mumbai"
+    },
+    {
+      "id": "pun_swargate",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "name": "Swargate Bus Stand & Depot",
+      "lat": 18.5018,
+      "lng": 73.8586,
+      "zone": "South Pune"
+    },
+    {
+      "id": "pun_shivajinagar",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "name": "Shivajinagar Bus Stand",
+      "lat": 18.5314,
+      "lng": 73.8553,
+      "zone": "Central Pune"
+    },
+    {
+      "id": "pun_hinjewadi",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "name": "Hinjewadi Phase 3 IT Park",
+      "lat": 18.5913,
+      "lng": 73.7389,
+      "zone": "West IT Park"
+    },
+    {
+      "id": "mh_ngp_ganeshpeth",
+      "city": "maharashtra",
+      "state": "Maharashtra",
+      "name": "Nagpur Ganeshpeth Central Bus Stand",
+      "lat": 21.1447,
+      "lng": 79.0982,
+      "zone": "Orange City Nagpur"
+    },
+    {
+      "id": "goa_panaji_ktcl",
+      "city": "goa",
+      "state": "Goa",
+      "name": "Panaji Kadamba Central Bus Stand",
+      "lat": 15.4989,
+      "lng": 73.8356,
+      "zone": "North Goa"
+    },
+    {
+      "id": "goa_margao_ktcl",
+      "city": "goa",
+      "state": "Goa",
+      "name": "Margao Kadamba Inter-City Terminal",
+      "lat": 15.2832,
+      "lng": 73.9681,
+      "zone": "South Goa"
+    },
+    {
+      "id": "mp_ind_sarwate",
+      "city": "madhya_pradesh",
+      "state": "Madhya Pradesh",
+      "name": "Indore Sarwate Bus Stand",
+      "lat": 22.716,
+      "lng": 75.869,
+      "zone": "Central Indore"
+    },
+    {
+      "id": "mp_ind_palasia",
+      "city": "madhya_pradesh",
+      "state": "Madhya Pradesh",
+      "name": "Palasia Square iBus BRTS",
+      "lat": 22.724,
+      "lng": 75.889,
+      "zone": "East Indore"
+    },
+    {
+      "id": "mp_bpl_isbt",
+      "city": "madhya_pradesh",
+      "state": "Madhya Pradesh",
+      "name": "Bhopal Kushabhau Thakre ISBT",
+      "lat": 23.2313,
+      "lng": 77.4478,
+      "zone": "Central Bhopal"
+    },
+    {
+      "id": "mp_gwl_bus_stand",
+      "city": "madhya_pradesh",
+      "state": "Madhya Pradesh",
+      "name": "Gwalior Central Bus Stand",
+      "lat": 26.2183,
+      "lng": 78.1828,
+      "zone": "Heritage Gwalior"
+    },
+    {
+      "id": "cg_rpr_isbt",
+      "city": "chhattisgarh",
+      "state": "Chhattisgarh",
+      "name": "Raipur Sri Balaji ISBT Bhatagaon",
+      "lat": 21.2185,
+      "lng": 81.6367,
+      "zone": "Capital Raipur"
+    },
+    {
+      "id": "cg_bsp_stand",
+      "city": "chhattisgarh",
+      "state": "Chhattisgarh",
+      "name": "Bilaspur High Court Road Bus Stand",
+      "lat": 22.0797,
+      "lng": 82.1409,
+      "zone": "Bilaspur Hub"
+    },
+    {
+      "id": "bih_bairiya",
+      "city": "bihar",
+      "state": "Bihar",
+      "name": "Patna Bairiya ISBT Bus Terminal",
+      "lat": 25.568,
+      "lng": 85.201,
+      "zone": "Patna East"
+    },
+    {
+      "id": "bih_gandhi_maidan",
+      "city": "bihar",
+      "state": "Bihar",
+      "name": "Gandhi Maidan Bus Terminal",
+      "lat": 25.617,
+      "lng": 85.148,
+      "zone": "Central Patna"
+    },
+    {
+      "id": "bih_gaya_stand",
+      "city": "bihar",
+      "state": "Bihar",
+      "name": "Gaya Bodhgaya Tourist Bus Stand",
+      "lat": 24.7955,
+      "lng": 85.0002,
+      "zone": "Bodhgaya Heritage"
+    },
+    {
+      "id": "jh_rnc_khadgarha",
+      "city": "jharkhand",
+      "state": "Jharkhand",
+      "name": "Ranchi Khadgarha Bus Stand",
+      "lat": 23.3619,
+      "lng": 85.3436,
+      "zone": "Central Ranchi"
+    },
+    {
+      "id": "jh_jsr_manango",
+      "city": "jharkhand",
+      "state": "Jharkhand",
+      "name": "Jamshedpur Mango Bus Stand",
+      "lat": 22.819,
+      "lng": 86.2081,
+      "zone": "Steel City Jamshedpur"
+    },
+    {
+      "id": "kol_howrah",
+      "city": "west_bengal",
+      "state": "West Bengal",
+      "name": "Howrah Station Bus Stand",
+      "lat": 22.585,
+      "lng": 88.3426,
+      "zone": "West"
+    },
+    {
+      "id": "kol_esplanade",
+      "city": "west_bengal",
+      "state": "West Bengal",
+      "name": "Esplanade Dharmatala",
+      "lat": 22.5647,
+      "lng": 88.3516,
+      "zone": "Central Kolkata"
+    },
+    {
+      "id": "kol_salt_lake",
+      "city": "west_bengal",
+      "state": "West Bengal",
+      "name": "Salt Lake Sector V (IT Hub)",
+      "lat": 22.5735,
+      "lng": 88.4331,
+      "zone": "East Kolkata"
+    },
+    {
+      "id": "wb_slg_tenzing",
+      "city": "west_bengal",
+      "state": "West Bengal",
+      "name": "Siliguri Tenzing Norgay Central Bus Terminus",
+      "lat": 26.7162,
+      "lng": 88.4236,
+      "zone": "North Bengal Hub"
+    },
+    {
+      "id": "od_bbi_baramunda",
+      "city": "odisha",
+      "state": "Odisha",
+      "name": "Bhubaneswar Baramunda ISBT (Babasaheb Ambedkar)",
+      "lat": 20.2798,
+      "lng": 85.7925,
+      "zone": "Temple City Bhubaneswar"
+    },
+    {
+      "id": "od_puri_stand",
+      "city": "odisha",
+      "state": "Odisha",
+      "name": "Puri Jagannath Dham Bus Stand",
+      "lat": 19.8135,
+      "lng": 85.8312,
+      "zone": "Holy Puri"
+    },
+    {
+      "id": "od_ctc_badambadi",
+      "city": "odisha",
+      "state": "Odisha",
+      "name": "Cuttack Badambadi Bus Stand",
+      "lat": 20.457,
+      "lng": 85.877,
+      "zone": "Silver City Cuttack"
+    },
+    {
+      "id": "blr_majestic",
+      "city": "karnataka",
+      "state": "Karnataka",
+      "name": "Kempegowda Majestic Bus Station",
+      "lat": 12.9778,
+      "lng": 77.5726,
+      "zone": "Central"
+    },
+    {
+      "id": "blr_mg_road",
+      "city": "karnataka",
+      "state": "Karnataka",
+      "name": "MG Road / Trinity Circle",
+      "lat": 12.9756,
+      "lng": 77.6094,
+      "zone": "Central"
+    },
+    {
+      "id": "blr_silk_board",
+      "city": "karnataka",
+      "state": "Karnataka",
+      "name": "Central Silk Board Junction",
+      "lat": 12.9177,
+      "lng": 77.6238,
+      "zone": "South"
+    },
+    {
+      "id": "blr_whitefield",
+      "city": "karnataka",
+      "state": "Karnataka",
+      "name": "ITPL Whitefield Terminal",
+      "lat": 12.9866,
+      "lng": 77.7376,
+      "zone": "East IT Corridor"
+    },
+    {
+      "id": "ka_mys_suburban",
+      "city": "karnataka",
+      "state": "Karnataka",
+      "name": "Mysuru Suburban KSRTC Bus Stand",
+      "lat": 12.3118,
+      "lng": 76.6552,
+      "zone": "Palace City Mysuru"
+    },
+    {
+      "id": "che_cmbt",
+      "city": "tamil_nadu",
+      "state": "Tamil Nadu",
+      "name": "CMBT Koyambedu Terminal",
+      "lat": 13.0694,
+      "lng": 80.2057,
+      "zone": "West Chennai"
+    },
+    {
+      "id": "che_guindy",
+      "city": "tamil_nadu",
+      "state": "Tamil Nadu",
+      "name": "Guindy Kathipara Junction",
+      "lat": 13.0067,
+      "lng": 80.2023,
+      "zone": "South Chennai"
+    },
+    {
+      "id": "che_siruseri",
+      "city": "tamil_nadu",
+      "state": "Tamil Nadu",
+      "name": "Siruseri SIPCOT IT Park (OMR)",
+      "lat": 12.8256,
+      "lng": 80.2195,
+      "zone": "OMR IT Corridor"
+    },
+    {
+      "id": "tn_cbe_gandhipuram",
+      "city": "tamil_nadu",
+      "state": "Tamil Nadu",
+      "name": "Coimbatore Gandhipuram Central Bus Stand",
+      "lat": 11.0183,
+      "lng": 76.9644,
+      "zone": "Manchester of South"
+    },
+    {
+      "id": "tn_mdu_mattuthavani",
+      "city": "tamil_nadu",
+      "state": "Tamil Nadu",
+      "name": "Madurai Mattuthavani Integrated Bus Terminal",
+      "lat": 9.9463,
+      "lng": 78.1565,
+      "zone": "Temple City Madurai"
+    },
+    {
+      "id": "hyd_secunderabad",
+      "city": "telangana",
+      "state": "Telangana",
+      "name": "Secunderabad Junction & Station",
+      "lat": 17.4399,
+      "lng": 78.4983,
+      "zone": "North"
+    },
+    {
+      "id": "hyd_mgbs",
+      "city": "telangana",
+      "state": "Telangana",
+      "name": "Mahatma Gandhi Bus Station (MGBS Imlibun)",
+      "lat": 17.3789,
+      "lng": 78.4812,
+      "zone": "Central Hyderabad"
+    },
+    {
+      "id": "hyd_hitec_city",
+      "city": "telangana",
+      "state": "Telangana",
+      "name": "Hitec City Cyber Towers",
+      "lat": 17.4504,
+      "lng": 78.3808,
+      "zone": "Cyberabad IT"
+    },
+    {
+      "id": "hyd_gachibowli",
+      "city": "telangana",
+      "state": "Telangana",
+      "name": "Gachibowli Stadium & WaveRock",
+      "lat": 17.4401,
+      "lng": 78.3489,
+      "zone": "Cyberabad IT"
+    },
+    {
+      "id": "ap_vja_pnbs",
+      "city": "andhra_pradesh",
+      "state": "Andhra Pradesh",
+      "name": "Vijayawada Pandit Nehru Bus Station (PNBS)",
+      "lat": 16.5085,
+      "lng": 80.6212,
+      "zone": "Central Vijayawada"
+    },
+    {
+      "id": "ap_vzk_dwaraka",
+      "city": "andhra_pradesh",
+      "state": "Andhra Pradesh",
+      "name": "Visakhapatnam Dwaraka RTC Complex",
+      "lat": 17.7289,
+      "lng": 83.3039,
+      "zone": "Vizag Port"
+    },
+    {
+      "id": "ap_tpt_central",
+      "city": "andhra_pradesh",
+      "state": "Andhra Pradesh",
+      "name": "Tirupati Central APSRTC Bus Stand",
+      "lat": 13.6288,
+      "lng": 79.4192,
+      "zone": "Holy Tirupati"
+    },
+    {
+      "id": "kl_tvm_thampanoor",
+      "city": "kerala",
+      "state": "Kerala",
+      "name": "Thiruvananthapuram Thampanoor Central KSRTC",
+      "lat": 8.487,
+      "lng": 76.953,
+      "zone": "Capital TVM"
+    },
+    {
+      "id": "kl_cok_vytilla",
+      "city": "kerala",
+      "state": "Kerala",
+      "name": "Kochi Vyttila Mobility Hub",
+      "lat": 9.9678,
+      "lng": 76.3214,
+      "zone": "Commercial Kochi"
+    },
+    {
+      "id": "kl_clt_stand",
+      "city": "kerala",
+      "state": "Kerala",
+      "name": "Kozhikode Mavoor Road KSRTC Terminal",
+      "lat": 11.2588,
+      "lng": 75.7804,
+      "zone": "Malabar Kozhikode"
+    },
+    {
+      "id": "py_pdy_new_stand",
+      "city": "puducherry",
+      "state": "Puducherry UT",
+      "name": "Puducherry New Bus Stand Maraimalai Adigal",
+      "lat": 11.9324,
+      "lng": 79.8142,
+      "zone": "French Colony Hub"
+    },
+    {
+      "id": "as_ghy_isbt",
+      "city": "assam",
+      "state": "Assam",
+      "name": "Guwahati ISBT Betkuchi",
+      "lat": 26.1158,
+      "lng": 91.7086,
+      "zone": "Gateway to North-East"
+    },
+    {
+      "id": "as_ghy_paltan",
+      "city": "assam",
+      "state": "Assam",
+      "name": "Guwahati Paltan Bazar Railway Bus Stand",
+      "lat": 26.1812,
+      "lng": 91.7511,
+      "zone": "Central Guwahati"
+    },
+    {
+      "id": "as_dbr_chowk",
+      "city": "assam",
+      "state": "Assam",
+      "name": "Dibrugarh ASTC Bus Station",
+      "lat": 27.4728,
+      "lng": 94.912,
+      "zone": "Upper Assam"
+    },
+    {
+      "id": "ml_shl_police_bazar",
+      "city": "meghalaya",
+      "state": "Meghalaya",
+      "name": "Shillong Police Bazar Main Stand",
+      "lat": 25.5788,
+      "lng": 91.8933,
+      "zone": "Pine City Shillong"
+    },
+    {
+      "id": "ml_chp_sohra",
+      "city": "meghalaya",
+      "state": "Meghalaya",
+      "name": "Cherrapunji (Sohra) Tourist Stand",
+      "lat": 25.2986,
+      "lng": 91.7324,
+      "zone": "Wettest Sohra"
+    },
+    {
+      "id": "sk_gtk_deorali",
+      "city": "sikkim",
+      "state": "Sikkim",
+      "name": "Gangtok Deorali SNT Bus Stand",
+      "lat": 27.32,
+      "lng": 88.608,
+      "zone": "Capital Gangtok"
+    },
+    {
+      "id": "sk_nmc_bazaar",
+      "city": "sikkim",
+      "state": "Sikkim",
+      "name": "Namchi Central Bus Park",
+      "lat": 27.1667,
+      "lng": 88.35,
+      "zone": "South Sikkim"
+    },
+    {
+      "id": "ar_ita_ganga",
+      "city": "arunachal_pradesh",
+      "state": "Arunachal Pradesh",
+      "name": "Itanagar Ganga Market APSTS Bus Station",
+      "lat": 27.0844,
+      "lng": 93.6053,
+      "zone": "Capital Itanagar"
+    },
+    {
+      "id": "ar_twg_stand",
+      "city": "arunachal_pradesh",
+      "state": "Arunachal Pradesh",
+      "name": "Tawang Monastery Tourist Bus Stand",
+      "lat": 27.5861,
+      "lng": 91.8594,
+      "zone": "High Altitude Tawang"
+    },
+    {
+      "id": "nl_khm_isbt",
+      "city": "nagaland",
+      "state": "Nagaland",
+      "name": "Kohima NST Central Bus Station",
+      "lat": 25.6751,
+      "lng": 94.1086,
+      "zone": "Capital Kohima"
+    },
+    {
+      "id": "nl_dmp_railway",
+      "city": "nagaland",
+      "state": "Nagaland",
+      "name": "Dimapur Railway NST Bus Stand",
+      "lat": 25.9064,
+      "lng": 93.727,
+      "zone": "Commercial Dimapur"
+    },
+    {
+      "id": "mn_imp_aoc",
+      "city": "manipur",
+      "state": "Manipur",
+      "name": "Imphal North AOC Inter-State Bus Stand",
+      "lat": 24.817,
+      "lng": 93.9368,
+      "zone": "Kangla Imphal"
+    },
+    {
+      "id": "mn_ccp_stand",
+      "city": "manipur",
+      "state": "Manipur",
+      "name": "Churachandpur Main Bus Stand",
+      "lat": 24.3333,
+      "lng": 93.6667,
+      "zone": "South Manipur"
+    },
+    {
+      "id": "mz_azl_thuampui",
+      "city": "mizoram",
+      "state": "Mizoram",
+      "name": "Aizawl Thuampui Inter-State Bus Terminal",
+      "lat": 23.75,
+      "lng": 92.74,
+      "zone": "Capital Aizawl"
+    },
+    {
+      "id": "mz_lng_stand",
+      "city": "mizoram",
+      "state": "Mizoram",
+      "name": "Lunglei Central Bus Stand",
+      "lat": 22.88,
+      "lng": 92.73,
+      "zone": "South Mizoram"
+    },
+    {
+      "id": "tr_agt_radhanagar",
+      "city": "tripura",
+      "state": "Tripura",
+      "name": "Agartala Radhanagar Central Bus Stand",
+      "lat": 23.8315,
+      "lng": 91.2868,
+      "zone": "Capital Agartala"
+    },
+    {
+      "id": "tr_udp_matabari",
+      "city": "tripura",
+      "state": "Tripura",
+      "name": "Udaipur Tripura Sundari Matabari Stand",
+      "lat": 23.5333,
+      "lng": 91.4833,
+      "zone": "Heritage Udaipur"
+    }
+  ],
+  "active_vehicles": {},
+  "fare_reports": [],
+  "rewards": [],
+  "support_tickets": [],
+  "emergency_helplines": [
+    {
+      "name": "National Emergency Helpline",
+      "number": "112",
+      "type": "All-in-One Emergency"
+    },
+    {
+      "name": "Police Control Room",
+      "number": "100",
+      "type": "Police Patrol"
+    },
+    {
+      "name": "Women Safety Helpline",
+      "number": "1091",
+      "type": "Women Safety"
+    },
+    {
+      "name": "UPSRTC UP Helpline",
+      "number": "1800-180-2877",
+      "type": "UP Transit"
+    },
+    {
+      "name": "Delhi DTC Helpline",
+      "number": "011-23370373",
+      "type": "Delhi Transit"
+    },
+    {
+      "name": "Mumbai BEST Helpline",
+      "number": "1800-227-550",
+      "type": "Mumbai Transit"
+    },
+    {
+      "name": "Bengaluru BMTC Helpline",
+      "number": "080-22483777",
+      "type": "Bengaluru Transit"
+    }
+  ]
+};

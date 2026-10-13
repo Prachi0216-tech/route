@@ -1,0 +1,24 @@
+{
+  "name": "myroute-transit-fullstack",
+  "version": "1.0.0",
+  "description": "MyRoute - Real-Time Public Transit Tracking, Driver Cockpit GPS & Multi-Modal Commute",
+  "main": "server/server.js",
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build && npm --prefix server install",
+    "start": "node server/server.js",
+    "test": "node server/test_simple_auth.js",
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "public-tunnel": "npx localtunnel --port 5000 --subdomain myroute-transit-live"
+  },
+  "keywords": [
+    "transit",
+    "pwa",
+    "realtime",
+    "gps-tracking",
+    "india-bus",
+    "auto-rickshaw",
+    "metro"
+  ],
+  "author": "MyRoute Team",
+  "license": "MIT"
+}

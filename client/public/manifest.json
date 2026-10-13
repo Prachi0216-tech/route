@@ -1,0 +1,43 @@
+{
+  "short_name": "MyRoute",
+  "name": "MyRoute - Real-Time Public Transit & Multi-Modal Commute",
+  "description": "Live bus, auto-rickshaw, metro and multimodal public transit tracking across 28+ states in India.",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#0284c7",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "categories": ["travel", "navigation", "transportation"],
+  "shortcuts": [
+    {
+      "name": "Live Fleet Map",
+      "url": "/?tab=map",
+      "description": "View live buses and vehicles"
+    },
+    {
+      "name": "Plan Trip",
+      "url": "/?tab=planner",
+      "description": "Multi-modal journey planner"
+    },
+    {
+      "name": "Driver Cockpit",
+      "url": "/?tab=driver-console",
+      "description": "Commercial driver GPS broadcast"
+    }
+  ]
+}
